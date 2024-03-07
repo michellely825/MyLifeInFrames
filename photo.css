@@ -1,0 +1,155 @@
+body {
+  background-color: #dcc9b6;
+}
+
+section {
+  position: relative;
+  width: 30%;
+  height: 400px;
+  margin: calc(10% / 6);
+  display: inline-block;
+  border-radius: 20px;
+  background-position: center;
+  background-size: cover;
+}
+
+.text-container {
+  position: absolute;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.9em;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: calc(100% - 40px);
+  height: calc(100% - 40px);
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+section::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  background: linear-gradient(#313638 5%, rgba(0, 0, 0, 0.7) 100%);
+  opacity: 0;
+  transition: opacity 0.55s ease;
+}
+
+.text-container::before {
+  content: "";
+  opacity: 0;
+  transition: opacity 0.55s ease;
+}
+
+.sec1 .text-container::before {
+  content: "I was born in Fountain Valley, CA on August 25th 2001 to two loving parents and my older sister, Christy. ";
+}
+
+.sec2 .text-container::before {
+  content: "I think it's safe to say I was a pretty cool kid. ";
+}
+
+.sec3 .text-container::before {
+  content: "As the child of hardworking immigrants, I had to learn to grow up pretty fast meaning driving myself to school at the early age of 7. All jokes aside, I had to take on many roles well beyond what was typical for someone my age. Given my parent's limited English, I became their personal translator to bridge language barriers, their document liason to navigate the intricate maze of paperwork as well as their own go-to IT problem-solver, tackling computer issues and printer malfunctions with the help of Google. These early responsibilities not only honed my practical skills but also instilled in me a deep understanding of resilience and adaptability.";
+}
+.sec4 .text-container::before {
+  content: "Growing up, I learned to prioritize education, always putting school first and believing in the instrumental power that education has in changing my family's current situation. With this mindset, I graduated salutatorian and was president of National Honor Society and AP Club.";
+}
+.sec5 .text-container::before {
+  content: "In Fall 2019, I was ecstatic to start undergrad at UCI. As a first-gen low-income college student, I majored in Biology and eventually specialized in Human Biology. The human body had always fascinated me and I wanted to learn more about the started college as a first-generation low-income student majoring in Biology at UCI.";
+}
+.sec6 .text-container::before {
+  content: "Initially on the PreMed track, I chose to specialize in Human Biology because the human body fascinated me and I wanted to learn more about the anatomical structures and systems that keep us alive. As a PreMed, I volunteered at UCI Medical Center, interned at the Irvine Urgent Care, and even as a medical assistant and lab technician.";
+}
+.sec6 .text-container::before {
+  content: "Covid hit the end of my first year and stayed throughout my second and third year. It was during this time that I started questioning my decision to pursue a career in healthcare.";
+}
+
+.sec7 .text-container::before {
+    content: "In pursuit of a new direction, I began researching different careers and eventually stumbled across coding.";
+  }
+
+.sec8 .text-container::before {
+  content: "I graduated from UC Irvine with a Bachelor's in Human Biology in June 2023.";
+}
+
+.sec9 .text-container::before {
+    content: "Not too long after graduating, I started working on campus as a coordinator for the TRIO Scholars Program which is a program that serves low-income first-generation college students.";
+}
+
+section:hover::before,
+.text-container:hover::before {
+  opacity: 0.75;
+}
+
+.sec1 {
+  background-image: url(pic12.jpg);
+}
+
+.sec2 {
+  background-image: url(pic2.jpg);
+}
+
+.sec3 {
+  background-image: url(pic3.jpg);
+}
+
+.sec4 {
+  background-image: url(pic4.jpg);
+}
+
+.sec5 {
+  background-image: url(pic5.jpeg);
+}
+
+.sec6 {
+  background-image: url(pic6.jpg);
+}
+
+.sec7 {
+  background-image: url(pic17.PNG);
+}
+
+.sec8 {
+  background-image: url(pic7.jpg);
+}
+
+.sec9 {
+  background-image: url(pic9.jpg);
+}
+
+nav {
+  text-transform: uppercase;
+  color: #582f0e;
+  margin: 0 calc(10% / 6);
+  font-family: "Raleway", sans-serif;
+  font-size: 25px;
+  justify-content: center;
+}
+
+nav::before {
+  content: "♥";
+  font-size: 25px;
+  color: #515a47;
+}
+nav::after {
+  content: " | MY LIFE IN FRAMES";
+  text-transform: lowercase;
+  font-family: "Poppins", sans-serif;
+  color: #582f0e;
+}
+
+hr {
+  margin: 0 calc(10% / 6);
+  height: 2px;
+  border: none;
+  border-radius: 20px;
+  background-color: #582f0e;
+}
