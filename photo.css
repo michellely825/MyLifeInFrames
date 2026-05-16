@@ -153,19 +153,32 @@ nav {
   margin: 0 calc(10% / 6);
   font-family: "Raleway", sans-serif;
   font-size: 25px;
-  justify-content: center;
+  display: flex;
+  justify-content: space-between; /* pushes left + right apart */
+  align-items: center;
 }
 
-nav::before {
-  content: "♥";
-  font-size: 25px;
+.heart {
   color: #515a47;
 }
-nav::after {
-  content: " | MY LIFE IN FRAMES";
-  text-transform: lowercase;
+
+.nav-title {
   font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  margin-left: 6px;
   color: #582f0e;
+  text-transform: lowercase;
+  font-weight: 300;
+}
+
+.nav-hint {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  margin-left: 8px;
+  color: #582f0e;
+  text-transform: lowercase;
+  opacity: 0.7;
+  font-style: bold;
 }
 
 hr {
