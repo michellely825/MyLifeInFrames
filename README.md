@@ -6,8 +6,6 @@ A personal front-end project that visually tells my journey through a grid-based
 
 Check it out here: [MyLifeInFrames](https://michellely825.github.io/MyLifeInFrames/)
 
----
-
 ## About the Project
 
 MyLifeInFrames is a 4x3 interactive photo grid built using HTML and CSS. Each tile reveals a short caption on hover, creating a visual narrative of key moments in my life, from my early background and education to my transition into tech and software development.
@@ -35,9 +33,10 @@ The goal of this project was to combine storytelling with front-end design while
 
 ## Future Improvements
 
+- Potentially integrate MyLifeInFrames into a larger personal portfolio as a “My Journey” section, alongside other projects and experiences
+- Consider adding audio or subtle background music to enhance the storytelling experience for each frame
 - Improve mobile responsiveness
 - Explore adding light JavaScript interactions
-- Consider adding audio or subtle background music to enhance the storytelling experience for each frame.
 
 ## Notes
 
