@@ -45,6 +45,7 @@ The goal of this project was to combine storytelling with front-end design while
 
 - Improve mobile responsiveness
 - Explore adding light JavaScript interactions
+- Consider adding audio or subtle background music to enhance the storytelling experience for each frame.
 
 ---
 
