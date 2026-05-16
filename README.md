@@ -14,8 +14,6 @@ MyLifeInFrames is a 4x3 interactive photo grid built using HTML and CSS. Each ti
 
 The goal of this project was to combine storytelling with front-end design while practicing layout, positioning, and hover-based interactivity.
 
----
-
 ## Features
 
 - Hover-based text overlays on images
@@ -23,14 +21,10 @@ The goal of this project was to combine storytelling with front-end design while
 - Personal storytelling through visual design
 - Deployed using GitHub Pages
 
----
-
 ## Tech Stack
 
 - HTML
 - CSS
-
----
 
 ## What I Learned
 
@@ -39,15 +33,11 @@ The goal of this project was to combine storytelling with front-end design while
 - Structuring a multi-section front-end project
 - Improving attention to UI/visual storytelling
 
----
-
 ## Future Improvements
 
 - Improve mobile responsiveness
 - Explore adding light JavaScript interactions
 - Consider adding audio or subtle background music to enhance the storytelling experience for each frame.
-
----
 
 ## Notes
 
