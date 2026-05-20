@@ -2,6 +2,8 @@
 
 A personal front-end project that visually tells my journey through a grid-based storytelling layout. Each frame represents a moment, experience, or transition in my academic and personal path.
 
+Note: This project was originally started earlier in my learning journey and later revisited and completed as part of my continued development in full-stack engineering.
+
 ## Live Demo
 
 Check it out here: [MyLifeInFrames](https://michellely825.github.io/MyLifeInFrames/)
@@ -37,7 +39,3 @@ The goal of this project was to combine storytelling with front-end design while
 - Consider adding audio or subtle background music to enhance the storytelling experience for each frame
 - Improve mobile responsiveness
 - Explore adding light JavaScript interactions
-
-## Notes
-
-This project was originally started earlier in my learning journey and later revisited and completed as part of my continued development in full-stack engineering.

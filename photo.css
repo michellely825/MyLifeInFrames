@@ -49,7 +49,7 @@ section::before {
 }
 
 .sec1 .text-container::before {
-  content: "I was born in Fountain Valley, CA to two loving parents and my older sister, Christy. ";
+  content: "I grew up in Midway City, CA to two loving parents and my older sister, Christy. ";
 }
 
 .sec2 .text-container::before {
@@ -70,7 +70,7 @@ section::before {
 }
 
 .sec7 .text-container::before {
-  content: "Lucky for me, college is the best time to explore. I began researching different career paths, initially considering other pre-health fields such as dentistry, nursing, and pharmacy. However, none of them truly resonated with me. It wasn’t until I took a spontaneous Python coding elective in my final year of college that I discovered something I genuinely enjoyed struggling through.";
+  content: "Lucky for me, college was the best time to explore other options. I began researching different career paths, initially considering other pre-health fields such as dentistry, nursing, and pharmacy. However, none of them truly resonated with me. It wasn’t until I took a spontaneous Python coding elective in my final year of college that I discovered something I genuinely enjoyed struggling through.";
 }
 
 .sec8 .text-container::before {
